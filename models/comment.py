@@ -7,6 +7,7 @@ if TYPE_CHECKING:
     from .user import User
     from .post import Post
 
+
 class Comment(Base):
     __tablename__ = "comments"
 
